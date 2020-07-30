@@ -1,18 +1,18 @@
-# MESLECONS open source conferencing system - http://www.bigbluebutton.org/.
+# c open source conferencing system - http://www.bigbluebutton.org/.
 #
-# Copyright (c) 2018 MESLECONS Inc. and by respective authors (see below).
+# Copyright (c) 2018 MES LEÇONS Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# MESLECONS is distributed in the hope that it will be useful, but WITHOUT ANY
+# MES LEÇONS is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with MESLECONS; if not, see <http://www.gnu.org/licenses/>.
+# with MES LEÇONS; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -36,7 +36,7 @@ en:
         enabled: Enabled
         info: Only allow authenticated users to join a room
         title: Require Authentication for Rooms
-        user-info: You must sign in to MESLECONS to join this room
+        user-info: You must sign in to MES LEÇONS to join this room
       branding:
         change: Change Image
         info: Change the branding image that appears in the top left corner
@@ -95,7 +95,7 @@ en:
       shared_access:
         info: Setting to disabled will remove the button from the Room options dropdown, preventing users from sharing rooms
         title: Allow Users to Share Rooms
-      subtitle: Customize MESLECONS
+      subtitle: Customize MES LEÇONS
       title: Site Settings
     flash:
       approved: User has been successfully approved.
@@ -143,13 +143,13 @@ en:
     room_configuration:
       title: Room Configuration
       mute:
-        info: Automatically mutes the user when they join the MESLECONS meeting
+        info: Automatically mutes the user when they join the MES LEÇONS meeting
       require_moderator:
-        info: Prompts the moderator of the MESLECONS meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
+        info: Prompts the moderator of the MES LEÇONS meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
       allow_any:
         info: Allows any user to start the meeting at any time. By default, only the room owner can start the meeting.
       all_moderator:
-        info: Gives all users moderator privileges in MESLECONS when they join the meeting.
+        info: Gives all users moderator privileges in MES LEÇONS when they join the meeting.
       options:
         disabled: Disabled
         enabled: Always Enabled
@@ -192,7 +192,7 @@ en:
         username: Username
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: MESLECONS
+  bigbluebutton: MES LEÇONS
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -212,7 +212,7 @@ en:
   errors:
     bigbluebutton:
       help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
-      message: Invalid MESLECONS Endpoint and Secret
+      message: Invalid MES LEÇONS Endpoint and Secret
       title: Server Error
     internal:
       message: Looks like something went wrong on our end.
@@ -225,10 +225,10 @@ en:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
       notice: >
-        MESLECONS encountered a database migration error.<br>
-        This may be because you haven't updated to MESLECONS 2.0.
+        MES LEÇONS encountered a database migration error.<br>
+        This may be because you haven't updated to MES LEÇONS 2.0.
       upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of MESLECONS, but your database isn't compatible.
+      version: We've released a new version of MES LEÇONS, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
@@ -239,7 +239,7 @@ en:
       inclusion: is not included in the list
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup MESLECONS
+      help: Please contact your system administrator to setup MES LEÇONS
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -269,7 +269,7 @@ en:
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: MESLECONS
+  greenlight: MES LEÇONS
   header:
     all_recordings: All Recordings
     dropdown:
@@ -288,16 +288,16 @@ en:
       mailer:
         subject: 'has invited you to view a recording.'
         body: 'To view the recording, follow the link below:'
-        autogenerated: 'This e-mail is auto-generated by MESLECONS.'
-        footer: 'MESLECONS is an online tutorial center. For more information on MESLECONS, see https://meslecons.baseacademie.com/.'
+        autogenerated: 'This e-mail is auto-generated by MES LEÇONS.'
+        footer: 'MES LEÇONS is an online tutorial center. For more information on MES LEÇONS, see https://MES LEÇONS.baseacademie.com/.'
     search:
       start: Start searching...
   landing:
-    about: "%{href} You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to MESLECONS.
-    video: Watch our tutorial on using MESLECONS
+    about: "%{href} permet aux institutions de formation académique, universitaire et autres de créer leurs propres salles de classe virtuelles pour héberger des sessions de cours en ligne. Les apprenants peuvent rejoindre les classes virtuelle en utilisant un lien court et pratique qui sera fourni lors de la création des classes."
+    welcome: Welcome to MES LEÇONS.
+    video: Watch our tutorial on using MES LEÇONS
     upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of MESLECONS, but your database isn't compatible.
+    version: We've released a new version of MES LEÇONS, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -309,10 +309,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use MESLECONS.
-          more-info: To allow this user to access MESLECONS you must approve their account in organization settings.
+          info: A new user has signed up to use MES LEÇONS.
+          more-info: To allow this user to access MES LEÇONS you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New MESLECONS User Sign Up
+          subject: New MES LEÇONS User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -326,11 +326,11 @@ en:
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
-          info: A user that was invited has signed up to use MESLECONS.
+          info: A user that was invited has signed up to use MES LEÇONS.
           admins_link: Visit the Organization Page
-          subject: New MESLECONS User Sign Up
+          subject: New MES LEÇONS User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join MESLECONS
+        subject: Invitation to join MES LEÇONS
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
